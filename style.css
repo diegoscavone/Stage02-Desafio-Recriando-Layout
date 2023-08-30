@@ -40,55 +40,60 @@ nav ul li a {
   font-size: 14px;
 }
 
-main{
+nav ul li a:hover {
+  font-weight: bold;
+  color: #00bfa6;
+}
+
+main {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-h1{
+h1 {
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   text-align: center;
 }
 
-h1 span{
-  color: #00BFA6;
+h1 span {
+  color: #00bfa6;
 }
 
-p{
+p {
   font-family: 'Open Sans', sans-serif;
   margin-top: 59px;
   width: 590px;
   text-align: center;
-  color: #C2C2C2;
+  color: #c2c2c2;
   line-height: 28px;
 }
 
-.text-green{
-  color: #00BFA6 ;
+.text-green {
+  color: #00bfa6;
 }
 
-#line{
-  border: 1px solid #00BFA6;
+#line {
+  border: 1px solid #00bfa6;
   width: 568px;
   margin: 167px auto 0;
 }
 
-footer{
+footer {
   margin-top: 27px;
   text-align: center;
   font-size: 14px;
   line-height: 28px;
 }
 
-footer a{
+footer a {
   color: #fff;
   text-decoration: none;
 }
 
-#padlock{
+#padlock {
   position: fixed;
   left: 20px;
   bottom: 20px;
